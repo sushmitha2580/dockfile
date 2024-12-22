@@ -1,4 +1,4 @@
-FROM alpine   
+FROM ubuntu   
 RUN apt-get update -y && apt-get install git -y
 WORKDIR /app
-CMD ["bin/sh"]
+CMD ["bash"]
